@@ -1,0 +1,16 @@
+{
+	"project_id": "59d5bdc4498edf6d9b13c2a9",
+	"service_id": "5a7313bfeb4d71dcbec69986",
+	"operations": {
+			"VirtualMachinesStart": {
+				"input": [],
+				"output": [],
+				"dsltype": "mistral"
+			},
+			"VirtualMachinesPowerOff": {
+				"input": [],
+				"output": [],
+				"dsltype": "mistral"
+			}
+		}
+}
