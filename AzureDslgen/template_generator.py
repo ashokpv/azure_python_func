@@ -23,6 +23,7 @@ def internal_api(url, host, resource_inventory=False):
         port = constants.resource_inventory_port
     url_prefix = "{}:{}".format(host, port)
     url = url_prefix + url
+    url = url.replace("https", "http")
     try:
         httpclient = httplib2.Http()
         headers = {"Content-Type": "application/json"}
